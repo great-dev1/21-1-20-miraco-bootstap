@@ -1,0 +1,100 @@
+/* Top Slide */
+.top-slide {
+	margin-top: 100px;
+}
+
+.carousel-inner {
+	width: 100%;
+	height: auto;
+}
+
+.carousel-inner img {
+	width: 100%;
+	height: auto;
+}
+
+.carousel-caption {
+	top: 20px;
+	left: 30px;
+	text-align: left;
+}
+
+.slide-title {
+	font-size: 36px;
+	text-transform: uppercase;
+	color: black;
+}
+
+.slide-text {
+	margin-top: 0;
+	font-size: 20px;
+	color: #7f96a9;
+}
+
+.slide-btn {
+	display: inline-block;
+	margin-top: 14px;
+	padding: 6px 20px;
+	border-radius: 25px;
+	text-align: center;
+	background-color: #5c1bd4;
+	cursor: pointer;
+}
+
+.fa-angle-left,
+.fa-angle-right {
+	font-size: 50px;
+	color: grey;
+}
+
+@media only screen and (min-width: 992px) {
+	.top-slide {
+		margin-top: 0;
+	}
+
+	.carousel-caption {
+		top: 190px;
+		left: 215px;
+		text-align: left;
+	}
+
+	.slide-title {
+		font-size: 52px;
+	}
+
+	.slide-text {
+		margin-top: 25px;
+		font-size: 18px;
+	}
+
+	.slide-btn {
+		margin-top: 36px;
+		padding: 10px 30px;
+		border-radius: 25px;
+	}
+
+	.fa-arrow-left,
+	.fa-arrow-right {
+		font-size: 30px;
+	}
+}
+
+/* Onas Section */
+.onas-section {
+	background-image: url("../img/home/onas-back-mobile.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 80px 0 150px;
+}
+
+.onas-text {
+	margin-top: 32px;
+}
+
+@media only screen and (min-width: 992px) {
+	.onas-section {
+		background-image: url("../img/home/onas-back.png");
+		padding: 100px 0 120px;
+	}
+}

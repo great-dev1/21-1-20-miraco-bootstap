@@ -1,0 +1,40 @@
+/* Exxon Table */
+.exxon-table {
+	padding: 90px 0;
+	background-color: white;
+}
+
+.table-column {
+	margin-top: 50px;
+	padding: 30px 0;
+	border-bottom: 1px solid #ccdbe9;
+}
+
+.table-text {
+	margin-bottom: 16px;
+	font-size: 16px;
+}
+
+/* Exxon Panel */
+.exxon-panel {
+	padding: 90px 0;
+	background-color: #f0f8ff;
+}
+
+.exxon-title1 {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #3004b2;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #a1aeb9;
+}
+
+.exxon-title2 {
+	margin-left: 20px;
+	color: black;
+}
+
+.search-btn {
+	margin: 0;
+}

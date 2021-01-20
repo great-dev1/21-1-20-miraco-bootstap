@@ -1,0 +1,42 @@
+/* Info Section */
+.info-section {
+	padding: 60px 0;
+	background-color: white;
+}
+
+.info-title {
+	margin-bottom: 90px;
+	font-size: 28px;
+}
+
+.info-text {
+	margin-bottom: 20px;
+	font-size: 15px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #666;
+}
+
+/* GoogleMap Section */
+.google-map-section {
+	padding-bottom: 60px;
+	background-color: white;
+}
+
+.google-map {
+	padding: 0;
+}
+
+.google-map iframe {
+	width: 100%;
+	height: 250px;
+}
+
+.company-img {
+	padding: 0;
+}
+
+.company-img img {
+	width: 100%;
+	height: 250px;
+}

@@ -1,0 +1,85 @@
+/* Onas section */
+.onas-section {
+	background-image: url("../img/onas/onas-back.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 90px 0;
+}
+
+.purple-text {
+	color: #672ad7;
+}
+
+/* Stat section */
+.stat-section {
+	padding: 90px 0;
+	text-align: center	;
+	background-color: #f0f8ff;
+	position: relative;
+}
+
+.number-circle {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	padding-top: 21px;
+	border-radius: 50%;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	background-color: #d5e2ee;
+}
+
+.grey-circle {
+	background-color: #b5cbdf;
+}
+
+.purple-circle {
+	background-color: #672ad7;
+}
+
+.stat-title {
+	margin: 25px 0 45px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.stat-text {
+	padding-bottom: 50px;
+}
+
+.horizon-line {
+	position: absolute;
+	top: 130px;
+	width: 21vw;
+	height: 1px;
+	margin: auto;
+	background-color: #d5e2ee;
+}
+
+.line-1 {
+	left: 25vw;
+}
+
+.line-2 {
+	left: 53vw;
+}
+
+/* Certificate section */
+.certificate-section {
+	padding: 60px 0 80px;
+	background-color: #f0f8ff;
+}
+
+.iso-logo {
+	width: 115px;
+	margin: auto;
+}
+
+@media only screen and (min-width: 992px) {
+	.iso-logo {
+		float: right;
+	}
+}
