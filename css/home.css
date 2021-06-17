@@ -38,7 +38,12 @@
 	border-radius: 25px;
 	text-align: center;
 	background-color: #5c1bd4;
+	transition: 0.3s;
 	cursor: pointer;
+}
+
+.slide-btn:hover {
+	background-color: grey;
 }
 
 .fa-angle-left,
